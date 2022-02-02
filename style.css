@@ -1,0 +1,84 @@
+:root{
+    --Very-dark-bodyBG : hsl(217, 54%, 11%);
+    --Very-dark-cardBG : hsl(216, 50%, 16%);
+    --Very-dark-line : hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background: var(--Very-dark-bodyBG);
+}
+.container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    
+}
+.card{
+    background: var(--Very-dark-cardBG);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.e_img{
+    overflow: hidden;
+    border-radius: 1rem;
+}
+.e_img_img{
+    width: 100%;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    border-bottom: 1px solid var(--Very-dark-line);
+    
+}
+.one{
+    display: flex;
+    align-items: center;
+}
+.two{
+    display: flex;
+    align-items: center;
+}
+.price_tag{
+    vertical-align: middle;
+    /* float: left; */
+    padding-right: 5px;
+}
+.price_name{
+    color: var(--Cyan);
+    font-weight: 400;
+}
+.time_tag{
+    padding-right: 5px;
+}
+
+.content_creater{
+    margin-top: 10px;
+    display: flex;
+    place-items: center;
+
+}
+span{
+    color:var(--White);
+}
+.avatar{
+    width: 40px;
+    margin-right: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+
+}
+h1{
+    color: var(--White);
+    font-size: 20px;
+}
+p{
+    color: var(--Soft-blue);
+    font-weight: 300;
+}
